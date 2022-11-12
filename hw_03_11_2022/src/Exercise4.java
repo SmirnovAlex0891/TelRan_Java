@@ -35,6 +35,7 @@ public class Exercise4 {
             for (int j = 1; j < arrayForSort.length; j++) {
                 if (arrayForSort[j] < arrayForSort[j - 1]) {
                     test = false;
+                    break;
                 }
             }
         }
